@@ -281,6 +281,79 @@ Stay updated on Arabic AI developments.
 - **[Hub71 Insights](https://www.hub71.com/latest-news)** — Abu Dhabi tech ecosystem and AI startup news.
 
 ---
+## 🤝 Contributing
 
+Contributions are **warmly welcomed**! This list grows stronger with community input.
+
+**How to contribute:**
+
+1. **Found a great resource we missed?** Open a [Pull Request](https://github.com/OsamaALHajj/awesome-arabic-ai/pulls).
+2. **Spotted a broken link or outdated info?** Open an [Issue](https://github.com/OsamaALHajj/awesome-arabic-ai/issues).
+3. **Want to suggest a new category?** Start a [Discussion](https://github.com/OsamaALHajj/awesome-arabic-ai/discussions).
+
+Please read our [Contribution Guidelines](CONTRIBUTING.md) before submitting.
+
+**Quick rules:**
+- ✅ Resource must be related to Arabic AI/NLP/Speech/Vision.
+- ✅ Add resources in alphabetical or logical order within their section.
+- ✅ Include a clear, concise one-line description.
+- ✅ Prefer open-source and actively maintained projects.
+- ❌ No duplicate entries.
+- ❌ No paid courses or affiliate links without disclosure.
+
+---
+
+## 🌟 Show Your Support
+
+If this list helped you, please consider:
+
+- ⭐ **Starring** the repository
+- 🔄 **Sharing** it with your network
+- 🤝 **Contributing** a resource or improvement
+- 💬 **Joining** the discussion to shape the future of Arabic AI
+
+Every star helps more Arabic AI builders discover these resources! 🚀
+
+---
+
+## 🙏 Acknowledgments
+
+This list stands on the shoulders of giants. Special thanks to:
+
+- The **Arabic NLP research community** for decades of foundational work.
+- **MBZUAI, TII, QCRI, SDAIA, KAUST**, and other institutions advancing Arabic AI.
+- **Open-source contributors** who make Arabic AI accessible to everyone.
+- **[Sindre Sorhus](https://github.com/sindresorhus)** for creating the Awesome List standard.
+- **Every contributor** who helps keep this list current and comprehensive.
+
+---
+
+## 📜 License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+This work is licensed under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) — you may freely use, modify, and distribute this content without restriction.
+
+---
+
+## 👤 Maintainer
+
+**Osama AL Hajj**
+
+[![GitHub](https://img.shields.io/badge/GitHub-OsamaALHajj-181717?style=flat&logo=github)](https://github.com/OsamaALHajj)
+
+---
+
+<div align="center">
+
+### ⭐ If you find this list valuable, please star it to help others discover it!
+
+**Made with ❤️ for the Arabic AI community**
+
+**صُنع بكل حب لمجتمع الذكاء الاصطناعي العربي**
+
+[⬆ Back to Top](#-awesome-arabic-ai-)
+
+</div>
 
 ---
