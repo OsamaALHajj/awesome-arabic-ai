@@ -55,6 +55,10 @@ The Arabic language is spoken by over **400 million people** worldwide, yet rema
 - [🎓 Courses & Tutorials](#-courses--tutorials)
 - [🏢 Companies & Startups](#-companies--startups)
 - [🌐 Communities & Conferences](#-communities--conferences)
+- [📰 Blogs & Newsletters](#-blogs--newsletters)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+
 
 ## 🤖 Large Language Models (LLMs)
 
@@ -124,8 +128,5 @@ High-quality datasets for training, fine-tuning, and evaluating Arabic AI models
 
 ---
 
-- [📰 Blogs & Newsletters](#-blogs--newsletters)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
 
 ---
