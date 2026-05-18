@@ -195,6 +195,92 @@ Production-ready libraries for Arabic text processing and NLP.
 - **[python-bidi](https://github.com/MeirKriheli/python-bidi)** — Bidirectional text handling for Arabic.
 
 ---
+## 📚 Research Papers & Surveys
+
+Foundational and recent academic work on Arabic AI and NLP.
+
+- **[The Landscape of Arabic Large Language Models](https://cacm.acm.org/arab-world-regional-special-section/the-landscape-of-arabic-large-language-models/)** — Comprehensive ACM survey of Arabic LLM development, architectures, and challenges.
+- **[Evaluating Arabic Large Language Models: A Survey](https://arxiv.org/html/2510.13430v1)** — Systematic review of Arabic LLM evaluation methodologies and benchmarks.
+- **[A Review of Arabic Post-Training Datasets and Their Limitations](https://arxiv.org/html/2507.14688v2)** — Critical analysis of instruction-tuning datasets for Arabic.
+- **[Jais Technical Report](https://arxiv.org/abs/2308.16149)** — Original paper introducing the Jais family of Arabic LLMs.
+- **[AceGPT Paper](https://arxiv.org/abs/2309.12053)** — Technical details of AceGPT and its RLAIF approach.
+- **[AraBERT Paper](https://arxiv.org/abs/2003.00104)** — Foundational paper on transformer-based Arabic language understanding.
+- **[CAMeLBERT Paper](https://arxiv.org/abs/2103.06678)** — Variant-aware BERT models for Modern Standard, Dialectal, and Classical Arabic.
+- **[ArabicaQA Paper](https://arxiv.org/abs/2403.17848)** — Large-scale Arabic question answering dataset and benchmark.
+- **[ArXiv Arabic NLP Papers](https://arxiv.org/search/?query=arabic+nlp&start=0)** — Live feed of latest Arabic NLP research on ArXiv.
+
+---
+
+## 🎓 Courses & Tutorials
+
+Learning resources for getting started with Arabic AI development.
+
+- **[HuggingFace Arabic NLP Course](https://huggingface.co/learn)** — Free course covering NLP fundamentals applicable to Arabic.
+- **[Arabic NLP with Python (CAMeL Tools Tutorials)](https://github.com/CAMeL-Lab/camel_tools/tree/master/docs/tutorials)** — Hands-on tutorials for Arabic text processing.
+- **[Arabic Speech Recognition Tutorial](https://huggingface.co/blog/fine-tune-whisper)** — Fine-tuning Whisper for Arabic ASR (adaptable guide).
+- **[Fine-tuning LLMs for Arabic](https://huggingface.co/blog/silma-ai)** — SILMA AI's blog series on Arabic LLM development.
+- **[Arabic NLP Resources by ARBML](https://github.com/ARBML)** — Open-source organization with Arabic NLP tutorials and tools.
+- **[Stanford CS224N Lectures](https://web.stanford.edu/class/cs224n/)** — General NLP course; concepts transfer well to Arabic work.
+
+---
+
+## 🏢 Companies & Startups
+
+Leading organizations driving Arabic AI innovation in the MENA region and beyond.
+
+### Research Institutes & Government-Backed
+
+- **[TII - Technology Innovation Institute](https://www.tii.ae/)** (UAE) — Creators of Falcon and Noor LLMs.
+- **[MBZUAI](https://mbzuai.ac.ae/)** (UAE) — Leading AI research university, behind Jais and ArTST.
+- **[QCRI - Qatar Computing Research Institute](https://www.hbku.edu.qa/en/qcri)** (Qatar) — Creators of Fanar and Farasa.
+- **[SDAIA](https://sdaia.gov.sa/)** (Saudi Arabia) — Creators of ALLaM, national AI authority.
+- **[KAUST AI Initiative](https://cemse.kaust.edu.sa/ai)** (Saudi Arabia) — Research behind AceGPT.
+
+### Startups & Companies
+
+- **[Inception (G42)](https://www.inceptionai.ai/)** (UAE) — Behind Jais; one of the largest AI companies in MENA.
+- **[Humain](https://humain.ai/)** (Saudi Arabia) — State-backed AI company under PIF.
+- **[SILMA AI](https://silma.ai/)** (Saudi Arabia) — Arabic LLM and benchmark provider.
+- **[Mozn](https://mozn.com/)** (Saudi Arabia) — AI solutions and Arabic NLP.
+- **[Intella](https://www.intella.ai/)** (Saudi Arabia) — Arabic voice AI and ASR.
+- **[Synapse Analytics](https://synapse-analytics.io/)** (Egypt) — AI platform with Arabic capabilities.
+- **[Bayzat](https://www.bayzat.com/)** (UAE) — HR-Tech leveraging Arabic NLP.
+- **[Cequens](https://www.cequens.com/)** (Egypt) — Communications platform with Arabic AI features.
+
+---
+
+## 🌐 Communities & Conferences
+
+Connect with the Arabic AI community.
+
+### Conferences & Workshops
+
+- **[ArabicNLP Conference](https://arabicnlp2024.sigarab.org/)** — Premier annual conference for Arabic NLP research.
+- **[WANLP Workshop](https://sites.google.com/view/wanlp)** — Workshop on Arabic Natural Language Processing (co-located with major venues).
+- **[OSACT Workshop](https://www.lrec-conf.org/proceedings/lrec2022/workshops/OSACT/)** — Open-Source Arabic Corpora and Processing Tools workshop.
+
+### Communities
+
+- **[HuggingFace Arabic Community](https://huggingface.co/CohereForAI)** — Arabic AI models, datasets, and discussions.
+- **[ARBML on GitHub](https://github.com/ARBML)** — Open-source Arabic ML organization.
+- **[SIGARAB](https://sigarab.org/)** — ACL Special Interest Group on Arabic NLP.
+- **[Arabic AI Discord Servers](https://discord.gg/)** — Multiple community servers for Arabic AI discussions.
+- **[r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/)** — Active discussions including Arabic LLMs.
+
+---
+
+## 📰 Blogs & Newsletters
+
+Stay updated on Arabic AI developments.
+
+- **[SILMA AI Blog](https://huggingface.co/blog/silma-ai)** — Regular posts on Arabic LLMs, benchmarks, and best practices.
+- **[Middle East AI News](https://www.middleeastainews.com/)** — News and analysis on AI in the MENA region.
+- **[TII Blog](https://www.tii.ae/news)** — Updates from the Technology Innovation Institute.
+- **[Inception Blog](https://www.inceptionai.ai/insights)** — Insights from the team behind Jais.
+- **[MAGNiTT](https://magnitt.com/)** — MENA startup ecosystem coverage including AI.
+- **[Hub71 Insights](https://www.hub71.com/latest-news)** — Abu Dhabi tech ecosystem and AI startup news.
+
+---
 
 
 ---
