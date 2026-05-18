@@ -127,6 +127,74 @@ High-quality datasets for training, fine-tuning, and evaluating Arabic AI models
 - **[Quran QA Datasets](https://sites.google.com/view/quran-qa-2023/)** — Religious-domain QA over the Holy Quran.
 
 ---
+## 🏆 Benchmarks & Leaderboards
+
+Standardized evaluation suites for measuring Arabic AI model performance.
+
+- **[Open Arabic LLM Leaderboard (OALL)](https://huggingface.co/spaces/OALL/Open-Arabic-LLM-Leaderboard)** — The official HuggingFace leaderboard for Arabic LLMs. Real-time rankings and evaluations.
+- **[AlGhafa Benchmark](https://huggingface.co/datasets/OALL/AlGhafa-Arabic-LLM-Benchmark-Native)** — Multiple-choice benchmark for zero-shot and few-shot evaluation of Arabic LLMs.
+- **[ArabicMMLU](https://huggingface.co/datasets/MBZUAI/ArabicMMLU)** — Arabic version of the popular MMLU benchmark, covering 40+ subjects.
+- **[HELM Arabic](https://crfm.stanford.edu/helm/arabic/latest/)** — Stanford CRFM's Holistic Evaluation of Language Models for Arabic.
+- **[ABB - Arabic Broad Benchmark](https://silma.ai/arabic-llm-benchmark)** — Comprehensive benchmark by SILMA.AI covering diverse Arabic tasks.
+- **[ArabicaQA Benchmark](https://huggingface.co/papers/2403.17848)** — Question answering benchmark with extensive LLM evaluations.
+- **[AraSTS](https://huggingface.co/datasets?search=arasts)** — Arabic Semantic Textual Similarity benchmark.
+- **[ARCD](https://huggingface.co/datasets/arcd)** — Arabic Reading Comprehension Dataset.
+- **[CIDAR-EVAL](https://huggingface.co/datasets/arbml/CIDAR-EVAL-100)** — Cultural alignment evaluation for Arabic LLMs.
+
+---
+
+## 🔊 Speech & Audio
+
+Arabic speech recognition, synthesis, and audio processing resources.
+
+### Speech Recognition (ASR)
+
+- **[Whisper Arabic Fine-tunes](https://huggingface.co/models?language=ar&pipeline_tag=automatic-speech-recognition)** — Collection of Whisper models fine-tuned for Arabic ASR.
+- **[ArTST](https://github.com/mbzuai-nlp/ArTST)** — Arabic Text and Speech Transformer by MBZUAI. Unified speech model for Arabic.
+- **[MGB-2 Dataset](https://arabicspeech.org/mgb2/)** — Large-scale Arabic broadcast news corpus for ASR.
+- **[MGB-3 Dataset](https://arabicspeech.org/mgb3/)** — Egyptian dialect ASR challenge dataset.
+- **[Common Voice Arabic](https://commonvoice.mozilla.org/ar)** — Mozilla's crowdsourced Arabic speech dataset.
+- **[QASR](https://arabicspeech.org/qasr/)** — Largest transcribed Arabic speech corpus (2000+ hours).
+
+### Text-to-Speech (TTS)
+
+- **[ClArTTS](https://www.clartts.com/)** — Classical Arabic text-to-speech corpus and models.
+- **[Arabic SpeechT5](https://huggingface.co/MBZUAI/speecht5_tts_clartts_ar)** — SpeechT5 adapted for Arabic TTS.
+- **[Tacotron2-Arabic](https://github.com/youssefsharief/arabic-tacotron-tts)** — Arabic implementation of Tacotron 2.
+- **[XTTS Arabic](https://huggingface.co/coqui/XTTS-v2)** — Coqui XTTS supporting Arabic voice cloning.
+
+---
+
+## 👁️ Vision & OCR
+
+Optical Character Recognition and computer vision for Arabic script.
+
+- **[QARI-OCR](https://huggingface.co/NAMAA-Space/Qari-OCR-0.3-Arabic-2B-Instruct)** — High-accuracy open-source Arabic OCR model with strong performance on handwritten and printed text.
+- **[Kraken OCR (Arabic models)](https://kraken.re/)** — Open-source OCR engine with trained Arabic models.
+- **[EasyOCR Arabic](https://github.com/JaidedAI/EasyOCR)** — Easy-to-use OCR library with Arabic support.
+- **[Tesseract Arabic](https://github.com/tesseract-ocr/tessdata)** — Google's Tesseract OCR with Arabic language data.
+- **[KHATT Database](http://khatt.ideas2serve.net/)** — Arabic handwritten text database for research.
+- **[Arabic Document Layout Analysis](https://github.com/topics/arabic-document-analysis)** — Tools for understanding Arabic document structure.
+
+---
+
+## 🛠️ Libraries & Tools
+
+Production-ready libraries for Arabic text processing and NLP.
+
+- **[CAMeL Tools](https://github.com/CAMeL-Lab/camel_tools)** — Comprehensive Python toolkit for Arabic NLP by Columbia University. Includes tokenization, morphology, dialect ID, NER, and more.
+- **[Farasa](https://farasa.qcri.org/)** — Fast and accurate Arabic NLP toolkit by QCRI. Segmentation, POS, NER, diacritization.
+- **[MADAMIRA](https://camel.abudhabi.nyu.edu/madamira/)** — Morphological analyzer and disambiguator for Arabic.
+- **[PyArabic](https://github.com/linuxscout/pyarabic)** — Python library for Arabic text processing utilities.
+- **[Tashaphyne](https://github.com/linuxscout/tashaphyne)** — Arabic light stemmer and root extractor.
+- **[Tnkeeh](https://github.com/ARBML/tnkeeh)** — Arabic text preprocessing library with normalization tools.
+- **[Maha](https://github.com/TRoboto/Maha)** — Text processing library with rich Arabic support.
+- **[ar-corrector](https://github.com/Sirine26/Spell-Checker-for-Arabic)** — Arabic spell-checker and corrector.
+- **[Arabic-Stopwords](https://github.com/mohataher/arabic-stop-words)** — Comprehensive Arabic stopwords list.
+- **[arabic-reshaper](https://github.com/mpcabd/python-arabic-reshaper)** — Reshape Arabic text for correct display.
+- **[python-bidi](https://github.com/MeirKriheli/python-bidi)** — Bidirectional text handling for Arabic.
+
+---
 
 
 ---
