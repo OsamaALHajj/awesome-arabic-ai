@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Awesome Arabic AI Banner" width="100%"/>
+<img src="banner.png" alt="Awesome Arabic AI Banner" width="100%"/>
 
 <br>
 
