@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="Awesome Arabic AI Banner" width="100%"/>
+
+<br>
+
 # 🌟 Awesome Arabic AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p>
