@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Ask a Question or Start a Discussion
+    url: https://github.com/OsamaALHajj/awesome-arabic-ai/discussions
+    about: For general questions, ideas, or open discussions about Arabic AI.
+  - name: 📖 Read the Contributing Guide
+    url: https://github.com/OsamaALHajj/awesome-arabic-ai/blob/main/CONTRIBUTING.md
+    about: Before opening an issue, please review our contribution guidelines.
