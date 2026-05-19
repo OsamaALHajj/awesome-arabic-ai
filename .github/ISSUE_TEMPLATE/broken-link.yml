@@ -1,0 +1,49 @@
+name: 🔗 Report a Broken Link
+description: Report a broken, dead, or outdated link in the list
+title: "[Broken Link]: "
+labels: ["bug", "broken-link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the list healthy! 🛠️
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource Name
+      description: Which entry has the broken link?
+      placeholder: e.g., AceGPT, MGB-2 Dataset
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Which section is the resource in?
+      placeholder: e.g., LLMs > Open-Source Models
+    validations:
+      required: true
+
+  - type: input
+    id: broken-url
+    attributes:
+      label: Broken URL
+      description: The link that's not working
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: input
+    id: new-url
+    attributes:
+      label: New URL (if known)
+      description: If you found a working replacement, share it
+      placeholder: https://...
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional Details
+      description: Any other context (e.g., "404 error", "domain expired", "project moved to...")
