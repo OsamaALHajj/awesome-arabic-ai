@@ -1,0 +1,88 @@
+name: 🌟 Suggest a New Resource
+description: Suggest a new Arabic AI resource to be added to the list
+title: "[New Resource]: "
+labels: ["enhancement", "new-resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new resource! 🎉
+        Please fill in the details below to help us evaluate your suggestion.
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource Name
+      description: The name of the resource you're suggesting
+      placeholder: e.g., Jais, CAMeL Tools, ArabicMMLU
+    validations:
+      required: true
+
+  - type: input
+    id: resource-url
+    attributes:
+      label: Resource URL
+      description: Official link to the resource (GitHub, HuggingFace, paper, etc.)
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested Category
+      description: Which section does this belong to?
+      options:
+        - 🤖 Large Language Models (LLMs)
+        - 📊 Datasets
+        - 🏆 Benchmarks & Leaderboards
+        - 🔊 Speech & Audio
+        - 👁️ Vision & OCR
+        - 🛠️ Libraries & Tools
+        - 📚 Research Papers
+        - 🎓 Courses & Tutorials
+        - 🏢 Companies & Startups
+        - 🌐 Communities & Conferences
+        - 📰 Blogs & Newsletters
+        - 💡 New Category (explain below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short Description
+      description: One concise sentence (under 25 words) explaining the resource
+      placeholder: A 7B parameter Arabic LLM by ... with strong dialectal support.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why-valuable
+    attributes:
+      label: Why is this resource valuable?
+      description: Help us understand the impact and uniqueness of this resource
+      placeholder: This resource is valuable because...
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: License (if applicable)
+      description: For models/datasets/tools, what's the license?
+      placeholder: e.g., Apache 2.0, MIT, CC-BY-SA, Proprietary
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: I have searched the README and this resource is not already listed
+          required: true
+        - label: The resource is related to Arabic AI/NLP/Speech/Vision
+          required: true
+        - label: The link is working and points to the official source
+          required: true
+        - label: The resource is actively maintained or recently published
+          required: true
