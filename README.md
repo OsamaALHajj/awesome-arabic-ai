@@ -73,22 +73,22 @@ State-of-the-art Arabic and multilingual language models with strong Arabic capa
 
 ### Open-Source General Models
 
-- **[Jais](https://huggingface.co/inceptionai)** — Family of bilingual Arabic-English LLMs (590M to 70B parameters) developed by Inception (G42), Cerebras, and MBZUAI. Apache 2.0 license. One of the most influential Arabic LLMs.
-- **[Jais 2](https://huggingface.co/inceptionai/Jais-2-70B-Chat)** — Next-generation Arabic open-weight LLM (8B and 70B) released December 2025 by Inception, Cerebras, and MBZUAI. Trained on the largest Arabic-first dataset ever assembled.
-- **[Fanar-1](https://huggingface.co/QCRI)** — 9B parameter Arabic-focused LLM by QCRI (Qatar). Open weights under Apache 2.0. Strong performance on cultural and dialectal tasks.
-- **[Fanar 2.0](https://www.fanar.qa/en)** — 27B parameter upgraded Arabic-centric multimodal model by QCRI (2025), supporting language, speech, and image generation.
-- **[ALLaM-7B](https://huggingface.co/humain-ai/ALLaM-7B-Instruct-preview)** — 7B model by SDAIA (Saudi Data and AI Authority). Apache 2.0. Optimized for Modern Standard Arabic and Saudi dialects.
+- **[Jais](https://huggingface.co/inceptionai/jais-family-2p7b)** — Family of bilingual Arabic-English LLMs (590M to 70B parameters) developed by Inception (G42), Cerebras, and MBZUAI. Apache 2.0 license. One of the most influential Arabic LLMs.
+- **[Jais 2](https://huggingface.co/inception42/Jais-2-70B-Chat)** — Next-generation Arabic open-weight LLM (8B and 70B) released December 2025 by Inception, Cerebras, and MBZUAI. Sets state-of-the-art on the AraGen leaderboard. [Collection](https://huggingface.co/collections/inception42/jais-2-family)
+- **[Fanar-1](https://huggingface.co/QCRI/Fanar-1-9B-Instruct)** — 9B parameter Arabic-focused LLM by QCRI (Qatar), continually pre-trained on Gemma-2-9B. Open weights. Strong performance on cultural and dialectal tasks.
+- **[Fanar 2.0](https://huggingface.co/QCRI/Fanar-2-27B-Instruct)** — 27B parameter upgraded Arabic-centric multimodal model by QCRI (2025), supporting language, speech, and image generation. [Platform](https://www.fanar.qa/en)
+- **[ALLaM-7B](https://huggingface.co/humain-ai/ALLaM-7B-Instruct-preview)** — 7B model by SDAIA (Saudi Data and AI Authority), trained on 5.2T+ tokens. Optimized for Modern Standard Arabic and Saudi dialects.
 - **[ALLaM-34B](https://huggingface.co/papers/2508.17378)** — 34B parameter Arabic-centric LLM by HUMAIN. Top-ranked on Stanford HELM for Arabic accuracy.
 - **[AceGPT](https://github.com/FreedomIntelligence/AceGPT)** — 7B/13B Arabic LLM by KAUST with RLAIF-based instruction tuning. Strong cultural alignment.
 - **[AceGPT-v2](https://github.com/FreedomIntelligence/AceGPT-v2)** — Improved Arabic LLMs (8B, 32B, 70B) with alignment at pre-training. Available on [Hugging Face](https://huggingface.co/FreedomIntelligence/AceGPT-v2-8B).
-- **[Falcon-Arabic](https://huggingface.co/blog/tiiuae/falcon-arabic)** — TII's first Arabic model in the Falcon series (May 2025). Excels at Arabic grammar, reasoning, and code-switching. [Falcon LLM Site](https://falconllm.tii.ae/)
+- **[Falcon-Arabic](https://huggingface.co/blog/tiiuae/falcon-arabic)** — TII's first Arabic model in the Falcon series (7B, May 2025). Excels at Arabic grammar, reasoning, and code-switching. [Falcon LLM Site](https://falconllm.tii.ae/)
 - **[Falcon-H1](https://falconllm.tii.ae/)** — TII's best-in-class high-performance hybrid model with strong Arabic capabilities.
 - **[SILMA-9B-Instruct-v1.0](https://huggingface.co/silma-ai/SILMA-9B-Instruct-v1.0)** — Top-ranked open-weights Arabic LLM (until Feb 2025) based on Gemma. Apache 2.0 license.
 - **[Mistral Saba](https://mistral.ai/news/mistral-saba)** — 24B parameter model by Mistral AI (Feb 2025) specifically designed for Arabic and South Asian languages.
 - **[Command R7B Arabic](https://huggingface.co/CohereLabs/c4ai-command-r7b-arabic-02-2025)** — 7B open-weight Arabic-optimized model by Cohere Labs (Feb 2025). [Technical Report](https://arxiv.org/html/2503.14603v1)
 - **[Aya & Aya Expanse](https://huggingface.co/CohereLabs/aya-101)** — Cohere's multilingual model supporting 101+ languages with strong Arabic support.
 - **[Yehia-7B](https://huggingface.co/Navid-AI/Yehia-7B-preview)** — Fine-tuned Arabic LLM by Navid AI, based on ALLaM. Top-performing on multiple Arabic benchmarks.
-- **[Pronoia LLM](https://tarjama.com/introducing-pronoia-llm-the-arabic-ai-engine-built-for-enterprise-excellence/)** — Tarjama's enterprise-focused Arabic LLM (7B and 14B variants). Ranked #1 on Open Arabic LLM Leaderboard.
+- **[Pronoia LLM](https://tarjama.com/introducing-pronoia-llm-the-arabic-ai-engine-built-for-enterprise-excellence/)** — Tarjama's enterprise-focused Arabic LLM (7B and 14B variants). Topped the Open Arabic LLM Leaderboard upon its December 2024 launch.
 - **[Mulhem](https://watadict.com/mulhem/)** — First Saudi domain-specific LLM by Watad, trained exclusively on Saudi data sets.
 - **[Noor](https://www.tii.ae/news/technology-innovation-institute-launches-noor-worlds-largest-arabic-nlp-model)** — Large-scale Arabic NLP model by TII (10B parameters, 2022).
 - **[Arabic-Sahm](https://huggingface.co/NAMAA-Space)** — Arabic language model by NAMAA-Space.
@@ -183,8 +183,8 @@ Standardized evaluation suites for measuring Arabic AI model performance.
 - **[BALSAM Benchmark](https://arxiv.org/abs/2507.22603)** — Community-driven Arabic LLM benchmark by KSGAAL with 78 NLP tasks. [Saudipedia](https://saudipedia.com/en/balsam-index)
 - **[AlGhafa Benchmark](https://huggingface.co/datasets/OALL/AlGhafa-Arabic-LLM-Benchmark-Native)** — Multiple-choice benchmark for zero-shot and few-shot evaluation of Arabic LLMs.
 - **[ArabicMMLU](https://huggingface.co/datasets/MBZUAI/ArabicMMLU)** — Arabic version of MMLU sourced from school exams across 40+ subjects. [GitHub](https://github.com/mbzuai-nlp/ArabicMMLU) | [Paper](https://arxiv.org/abs/2402.12840)
-- **[HELM Arabic](https://crfm.stanford.edu/helm/arabic/latest/)** — Stanford CRFM's Holistic Evaluation of Language Models for Arabic (v1.0.0, 2025). [Blog](https://crfm.stanford.edu/2025/12/18/helm-arabic.html)
-- **[Arabic Broad Benchmark (ABB)](https://silma.ai/arabic-llm-benchmark)** — Comprehensive benchmark by SILMA.AI covering diverse Arabic tasks.
+- **[HELM Arabic](https://crfm.stanford.edu/helm/arabic/latest/)** — Stanford CRFM's Holistic Evaluation of Language Models for Arabic (2025), in collaboration with Arabic.AI. [Blog](https://crfm.stanford.edu/2025/12/18/helm-arabic.html)
+- **[Arabic Broad Benchmark (ABB)](https://silma.ai/arabic-llm-benchmark)** — Comprehensive benchmark by SILMA.AI: 470 human-validated questions sampled from 64 datasets across 22 categories. [Dataset](https://huggingface.co/datasets/silma-ai/arabic-broad-benchmark)
 - **[Arabic LLM Leaderboard - ABL](https://silma.ai/arabic-llm-leaderboard)** — Advanced visualizations and in-depth analytics by SILMA AI.
 - **[ARB - Arabic Multimodal Reasoning Benchmark](https://mbzuai-oryx.github.io/ARB/)** — First benchmark for step-by-step reasoning in Arabic across textual and multimodal tasks.
 - **[ArabicaQA Benchmark](https://huggingface.co/papers/2403.17848)** — Question answering benchmark with extensive LLM evaluations.
@@ -192,7 +192,8 @@ Standardized evaluation suites for measuring Arabic AI model performance.
 - **[AraSTS](https://huggingface.co/datasets?search=arasts)** — Arabic Semantic Textual Similarity benchmark.
 - **[ARCD](https://huggingface.co/datasets/arcd)** — Arabic Reading Comprehension Dataset.
 - **[CIDAR-EVAL](https://huggingface.co/datasets/arbml/CIDAR-EVAL-100)** — Cultural alignment evaluation for Arabic LLMs.
-- **[AraLingBench](https://arxiv.org/pdf/2511.14295)** — Human-annotated benchmark for evaluating Arabic linguistic abilities of LLMs.
+- **[AraLingBench](https://arxiv.org/abs/2511.14295)** — Human-annotated 150-question benchmark evaluating Arabic linguistic abilities across grammar, morphology, spelling, and more. [GitHub](https://github.com/hammoudhasan/AraLingBench)
+- **[Sadeed / SadeedDiac-25](https://github.com/misraj-ai/Sadeed)** — Arabic diacritization model and benchmark by Misraj AI. [Paper](https://arxiv.org/html/2504.21635v1)
 - **[Arabic-LLM-Benchmarks Repository](https://github.com/tiiuae/Arabic-LLM-Benchmarks)** — Comprehensive curated repository by TII.
 - **[Arabic AI Benchmarks & Leaderboards (SILMA)](https://huggingface.co/blog/silma-ai/arabic-ai-benchmarks-and-leaderboards)** — Comprehensive record of all benchmarks in the Arabic AI ecosystem.
 
@@ -221,7 +222,7 @@ Arabic speech recognition, synthesis, and audio processing resources.
 - **[Tacotron2-Arabic](https://github.com/youssefsharief/arabic-tacotron-tts)** — Arabic implementation of Tacotron 2.
 - **[XTTS Arabic](https://huggingface.co/coqui/XTTS-v2)** — Coqui XTTS supporting Arabic voice cloning.
 - **[ElevenLabs Arabic](https://elevenlabs.io/text-to-speech/arabic)** — Commercial multilingual TTS with high-quality Arabic voices.
-- **[Munsit](https://munsit.com/)** — Accurate Arabic STT/TTS platform with smart assistants and meeting transcription.
+- **[Munsit](https://munsit.com/)** — Arabic Voice AI suite (STT/TTS) built by CNTXT AI (UAE), covering 25+ dialects with meeting transcription and smart assistants.
 
 ---
 
@@ -246,6 +247,7 @@ Production-ready libraries for Arabic text processing and NLP.
 - **[CAMeL Tools](https://github.com/CAMeL-Lab/camel_tools)** — Comprehensive Python toolkit for Arabic NLP by NYU Abu Dhabi's CAMeL Lab. Includes tokenization, morphology, dialect ID, NER, and more. [Paper](https://aclanthology.org/2020.lrec-1.868/)
 - **[Farasa](https://farasa.qcri.org/)** — Fast and accurate Arabic NLP toolkit by QCRI. Segmentation, POS, NER, diacritization. [Python wrapper (farasapy)](https://github.com/MagedSaeed/farasapy)
 - **[MADAMIRA](https://camel.abudhabi.nyu.edu/madamira/)** — Morphological analyzer and disambiguator for Arabic.
+- **[Sadeed](https://github.com/misraj-ai/Sadeed)** — State-of-the-art small-model Arabic diacritization tool by Misraj AI (2.4% WER). [Paper](https://arxiv.org/html/2504.21635v1)
 - **[PyArabic](https://github.com/linuxscout/pyarabic)** — Python library for Arabic text processing utilities.
 - **[Tashaphyne](https://github.com/linuxscout/tashaphyne)** — Arabic light stemmer and root extractor.
 - **[Tnkeeh](https://github.com/ARBML/tnkeeh)** — Arabic text preprocessing library with normalization tools.
@@ -280,6 +282,8 @@ Foundational and recent academic work on Arabic AI and NLP.
 - **[Command R7B Arabic Paper](https://arxiv.org/html/2503.14603v1)** — Small enterprise-focused multilingual model.
 - **[BALSAM Paper](https://arxiv.org/abs/2507.22603)** — A Platform for Benchmarking Arabic LLMs.
 - **[Lahjawi Paper](https://aclanthology.org/2025.wacl-1.2.pdf)** — Arabic Cross-Dialect Translator.
+- **[AraLingBench Paper](https://arxiv.org/abs/2511.14295)** — A Human-Annotated Benchmark for evaluating Arabic linguistic competence.
+- **[Sadeed Paper](https://arxiv.org/html/2504.21635v1)** — Advancing Arabic Diacritization Through Small Language Models.
 - **[Cross-dialectal Arabic translation](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1661789/full)** — Frontiers in AI 2025 comparative analysis.
 - **[Emerging Techniques in Arabic NLP](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1715520/full)** — Frontiers in AI editorial 2025.
 - **[ArXiv Arabic NLP Papers](https://arxiv.org/search/?query=arabic+nlp&start=0)** — Live feed of latest Arabic NLP research on ArXiv.
@@ -323,8 +327,10 @@ Leading organizations driving Arabic AI innovation in the MENA region and beyond
 - **[SILMA AI](https://silma.ai/)** (Saudi Arabia) — Arabic LLM and benchmark provider; creators of SILMA-9B.
 - **[Watad](https://watadict.com/mulhem/)** (Saudi Arabia) — Creators of Mulhem Arabic-English LLM.
 - **[Navid AI](https://huggingface.co/Navid-AI)** (Saudi Arabia) — Behind Yehia-7B Arabic LLM.
+- **[Misraj AI](https://github.com/misraj-ai)** (Saudi Arabia) — Creators of Sadeed diacritization model and SadeedDiac-25 benchmark.
+- **[CNTXT AI](https://munsit.com/)** (UAE) — Behind Munsit Arabic Voice AI (STT/TTS).
 - **[Mozn](https://mozn.com/)** (Saudi Arabia) — AI solutions and Arabic NLP.
-- **[Intella](https://www.intella.ai/)** (Saudi Arabia/Egypt) — Arabic voice AI and ASR. Raised $12.5M Series A in 2025.
+- **[Intella](https://www.intella.ai/)** (Saudi Arabia/Egypt) — Arabic voice AI and ASR. Raised $12.5M Series A in 2025 (led by Prosus).
 - **[Tarjama& / Arabic.AI](https://arabic.ai/about/)** (UAE) — MENA's leading language AI company; creators of Pronoia LLM. Raised $15M Series A.
 - **[NAMAA-Space](https://huggingface.co/NAMAA-Space)** — Network for Advancing Modern Arabic NLP & AI; creators of QARI-OCR.
 - **[Clusterlab AI](https://huggingface.co/ClusterlabAi)** — Behind 101 Billion Arabic Words Dataset and InstAr-500k.
@@ -332,7 +338,7 @@ Leading organizations driving Arabic AI innovation in the MENA region and beyond
 - **[Synapse Analytics](https://synapse-analytics.io/)** (Egypt) — AI platform with Arabic capabilities.
 - **[Bayzat](https://www.bayzat.com/)** (UAE) — HR-Tech leveraging Arabic NLP.
 - **[Cequens](https://www.cequens.com/)** (Egypt) — Communications platform with Arabic AI features.
-- **[Cerebras Systems](https://www.cerebras.ai/blog/jais2)** — Compute partner for Jais 2 training.
+- **[Cerebras Systems](https://www.cerebras.ai/blog/jais2)** — Compute partner for Jais and Jais 2 training.
 
 ---
 
@@ -442,9 +448,9 @@ This work is licensed under [CC0 1.0 Universal](https://creativecommons.org/publ
 
 <div align="center">
 
-                               ## ⭐ If you find this list valuable, please star it to help others discover it!
+## ⭐ If you find this list valuable, please star it to help others discover it!
 
-                                             **Made with ❤️ for the Arabic AI community**
+**Made with ❤️ for the Arabic AI community**
 
 **صُنع بكل حب لمجتمع الذكاء الاصطناعي العربي**
 
