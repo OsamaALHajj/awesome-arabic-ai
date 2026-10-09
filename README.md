@@ -223,6 +223,7 @@ Arabic speech recognition, synthesis, and audio processing resources.
 - **[XTTS Arabic](https://huggingface.co/coqui/XTTS-v2)** — Coqui XTTS supporting Arabic voice cloning.
 - **[ElevenLabs Arabic](https://elevenlabs.io/text-to-speech/arabic)** — Commercial multilingual TTS with high-quality Arabic voices.
 - **[Munsit](https://munsit.com/)** — Arabic Voice AI suite (STT/TTS) built by CNTXT AI (UAE), covering 25+ dialects with meeting transcription and smart assistants.
+- **[Sawtak Arabi](https://sawtakarabi.ai/)** — Commercial Arabic TTS for voice agents and content creation, with regional voices, a web studio, and a documented API.
 
 ---
 
